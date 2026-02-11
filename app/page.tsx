@@ -113,7 +113,7 @@ export default function Home() {
         <div className="container mb-16 text-center">
           <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl mb-4">Why Choose Offset?</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            For projects that demand perfection, offset printing offers advantages that digital simply cannot match.
+            While digital is great for your cousin's birthday card, Offset Printing is the industry gold standard for a reason. It uses etched metal plates that apply ink onto a rubber blanket and then roll it onto the paper.
           </p>
         </div>
 
@@ -122,18 +122,18 @@ export default function Home() {
           {[
             {
               icon: Layers,
-              title: "Unmatched Accuracy",
-              description: "True Pantone matching guarantees your brand colors are consistent across every single page, every single time."
+              title: "Superior Color Accuracy",
+              description: "We use actual ink, not just toner. This means your brand colors stay consistent across 10,000 copies."
             },
             {
               icon: Zap,
-              title: "Economies of Scale",
-              description: "The more you print, the less you pay per unit. Perfect for catalogs, magazines, and large direct mail campaigns."
+              title: "Cost-Effective at Scale",
+              description: "The more you print, the cheaper it gets. It’s the ultimate ROI for bulk marketing."
             },
             {
               icon: PenTool,
-              title: "Premium Finishes",
-              description: "Unlock access to metallic inks, heavy cardstocks, and specialized textures that define luxury."
+              title: "The Pantone Advantage",
+              description: "We can hit those hyper-specific \"Spot Colors\" that digital printers simply can't replicate."
             }
           ].map((feature, i) => (
             <motion.div
@@ -171,8 +171,8 @@ export default function Home() {
                     <Layers className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-xl mb-2 text-white">Micro-Calibration</h4>
-                    <p className="text-slate-400 leading-relaxed">Daily laser alignment ensures every dot of ink lands with micron-level precision, guaranteeing sharpness that digital print can't replicate.</p>
+                    <h4 className="font-bold text-xl mb-2 text-white">Precision Engineering</h4>
+                    <p className="text-slate-400 leading-relaxed">Our machines are calibrated daily for micron-level accuracy.</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
@@ -180,8 +180,8 @@ export default function Home() {
                     <PenTool className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-xl mb-2 text-white">Tactile Excellence</h4>
-                    <p className="text-slate-400 leading-relaxed">From soft-touch coatings to raised UV and embossing, we create prints that engage the senses and beg to be touched.</p>
+                    <h4 className="font-bold text-xl mb-2 text-white">Texture & Touch</h4>
+                    <p className="text-slate-400 leading-relaxed">From matte silk to high-gloss UV, we offer finishes that feel as good as they look.</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
@@ -189,8 +189,8 @@ export default function Home() {
                     <Zap className="h-6 w-6" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-xl mb-2 text-white">Master Review</h4>
-                    <p className="text-slate-400 leading-relaxed">Every job is personally inspected by a master printer with 20+ years of experience before it leaves our floor.</p>
+                    <h4 className="font-bold text-xl mb-2 text-white">Creative Partnership</h4>
+                    <p className="text-slate-400 leading-relaxed">We don't just take orders; we review your files to ensure the final product is a masterpiece.</p>
                   </div>
                 </div>
               </div>

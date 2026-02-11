@@ -11,14 +11,13 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    /* Royal Blue #4169E1 -> HSL(225, 73%, 57%) - Making it slightly deeper/richer */
-    --primary: 225 73% 54%;
+    /* Royal Blue #4169E1 -> HSL(225, 73%, 57%) */
+    --primary: 225 73% 57%;
     --primary-foreground: 0 0% 100%;
 
-    /* Sky Blue #87CEEB -> HSL(197, 71%, 73%) - Slightly more saturated accent */
-    --secondary: 199 89% 48%;
-    /* Vivid Sky Blue */
-    --secondary-foreground: 0 0% 100%;
+    /* Sky Blue #87CEEB -> HSL(197, 71%, 73%) */
+    --secondary: 197 71% 73%;
+    --secondary-foreground: 222 47% 11%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
